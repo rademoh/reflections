@@ -1,0 +1,59 @@
+//https://www.nairaland.com/3310680/fetchr-now-nigeria-hiring-technology
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email "johndoe@example.com"
+
+View list og git users
+- git config --list
+
+
+Initialising Git in a project
+- git init projectname
+
+Add when you’re ready to save a copy of the current state of the project, you stage changes with git add
+- git add filename or git add *.c
+
+Commit
+- git commit -m "commit message"
+
+Cloning a Repository
+- git clone url to repository 
+
+View git log
+- git log 
+
+Exiting git log
+- To stop viewing git log output, press q (which stands for quit).
+
+Getting Colored Output
+- To get colored diff output, run git config --global color.ui auto
+
+The command Caroline types to checkout the "Revert controls" commit is 
+- git checkout b0678b161fcf74467ed3a63110557e3d6229cfa6.
+
+
+The view project branch and current branch
+- git branch
+
+To create branch of a project
+- git branch 'name of branch you wish to create'
+
+To switch to new branch
+- git checkout 'name of new branch'
+
+To create new branchto retain commits
+- git checkout -b 'new branch name'
+
+To merger to branches 
+- git merge 'first branch name'  'second branch name'
+
+To delete a branch
+- git branch -d 'name of branch'
+
+
+
+
+
+
+
+
