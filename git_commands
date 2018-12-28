@@ -50,6 +50,16 @@ To merger to branches
 To delete a branch
 - git branch -d 'name of branch'
 
+To add remote to local machine
+- git remote add origin https://github.com/rademoh/reflections.git
+
+To push 
+- git push -u origin master
+
+To pull from remote
+-git pull origin master
+
+
 
 
 
