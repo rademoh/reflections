@@ -59,6 +59,13 @@ To push
 To pull from remote
 -git pull origin master
 
+To view current git user
+- git config user.email
+
+Changing To a Different Git User
+- git config --global user.email "myemail@gmail.com"
+
+
 
 
 
