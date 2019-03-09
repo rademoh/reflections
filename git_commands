@@ -65,6 +65,10 @@ To view current git user
 Changing To a Different Git User
 - git config --global user.email "myemail@gmail.com"
 
+Issues is pushing for the first time cus of readme file
+
+- git pull origin master --allow-unrelated-histories
+
 
 
 
