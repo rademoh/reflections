@@ -3,6 +3,16 @@
 $ git config --global user.name "John Doe"
 $ git config --global user.email "johndoe@example.com"
 
+
+or create a new repository on the command line
+echo "# CommentReviewDownloader" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rademoh/CommentReviewDownloader.git
+git push -u origin master
+
+
 View list og git users
 - git config --list
 
